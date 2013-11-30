@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Markdown", "Markdown\Markdown.csproj", "{D414216C-EB17-48F8-B4A0-78AD1859181E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkdownTest", "MarkdownTest\MarkdownTest.csproj", "{18385CDA-972F-406C-83BF-8332017FC4AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,30 @@ Global
 		{D414216C-EB17-48F8-B4A0-78AD1859181E}.Release|x64.Build.0 = Release|x64
 		{D414216C-EB17-48F8-B4A0-78AD1859181E}.Release|x86.ActiveCfg = Release|x86
 		{D414216C-EB17-48F8-B4A0-78AD1859181E}.Release|x86.Build.0 = Release|x86
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|ARM.Build.0 = Debug|ARM
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|ARM.Deploy.0 = Debug|ARM
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|x64.ActiveCfg = Debug|x64
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|x64.Build.0 = Debug|x64
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|x64.Deploy.0 = Debug|x64
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|x86.ActiveCfg = Debug|x86
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|x86.Build.0 = Debug|x86
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Debug|x86.Deploy.0 = Debug|x86
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|ARM.ActiveCfg = Release|ARM
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|ARM.Build.0 = Release|ARM
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|ARM.Deploy.0 = Release|ARM
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|x64.ActiveCfg = Release|x64
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|x64.Build.0 = Release|x64
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|x64.Deploy.0 = Release|x64
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|x86.ActiveCfg = Release|x86
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|x86.Build.0 = Release|x86
+		{18385CDA-972F-406C-83BF-8332017FC4AB}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
