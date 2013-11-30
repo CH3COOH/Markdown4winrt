@@ -162,7 +162,7 @@ namespace MarkdownSharp
         {
             if (!loadOptionsFromConfigFile) return;
 
-#if !NETFX_CORE
+#if !NETFX_CORE && !WINDOWS_PHONE
             var settings = ConfigurationManager.AppSettings;
             foreach (string key in settings.Keys)
             {
