@@ -1,0 +1,34 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MarkdownEditor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+        <phone:Pivot x:Name="pivot" Title="MARKDOWN EDITOR" SelectionChanged="pivot_SelectionChanged">
+            <!-- 編集領域 -->
+            <phone:PivotItem Header="edit">
+                <TextBox x:Name="editorArea" AcceptsReturn="True" />
+            </phone:PivotItem>
+
+            <!--テキストの折り返しを行わない 2 行リスト-->
+            <phone:PivotItem Header="preview">
+                <phone:WebBrowser x:Name="previewArea" />
+            </phone:PivotItem>
+        </phone:Pivot>
+
+        <Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" IsHitTestVisible="False" />
+    </Grid>
+
+</phone:PhoneApplicationPage>
